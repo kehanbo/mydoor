@@ -165,15 +165,86 @@ html{
 
 
 /**
-*脚注区域
+*特色部分开始
+*/
+#features > .container{
+    padding: 40px 0;
+}
+
+#features .media {
+    padding:10px 0;
+}
+
+
+#features > .container a{
+    text-decoration: none;
+    color: rgba(30, 24, 31, 0.97);
+}
+#features > .container a:hover{
+
+    color: #E9232C;
+}
+
+
+.icon-uniE907:before {
+    content: "\e907";
+    font-size: 35px;
+
+}
+.icon-uniE903:before {
+    content: "\e903";
+    font-size: 35px;
+}
+.icon-uniE901:before {
+    content: "\e901";
+    font-size: 35px;
+}
+
+.icon-uniE900:before {
+    content: "\e900";
+    font-size: 35px;
+}
+
+.icon-uniE904:before {
+    content: "\e904";
+    font-size: 35px;
+}
+.icon-uniE902:before {
+    content: "\e902";
+    font-size: 35px;
+}
+
+/**
+*特色部分结束
 */
 
+/*booking部分*/
+#booking {
+    padding: 20px 0;
+    border-top: 1px solid #c0c0c0;
+    font-size: 16px;
+}
+#booking span{
+    color: #E9232C;
+}
+#booking a{
+    color: #E9232C;
+    display: inline-block;
+    text-decoration: none;
+    border-bottom: 1px dashed #E9232C;
+}
+#booking i{
+    display: inline-block;
+    padding-right: 4px;
+    font-size: 18px;
+}
 
-
-
-
-
-
+.icon-uniE905:before {
+    content: "\e905";
+}
+.icon-uniE906:before {
+    content: "\e906";
+}
 
 
 
